@@ -1,0 +1,31 @@
+.SongList {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.SongListHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SongRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.SongDetails {
+  display: flex;
+  align-items: center;
+}
+
+.SongActions {
+  display: flex;
+  align-items: center;
+}
