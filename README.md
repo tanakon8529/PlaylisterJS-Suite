@@ -1,7 +1,7 @@
 
 # PlaylisterJS-Suite
 
-PlaylisterJS-Suite is a full-stack web application for creating and managing music playlists. Inspired by the simplicity and functionality of popular music streaming services, PlaylisterJS-Suite provides an intuitive interface for users to search, organize, and enjoy their favorite tracks.
+PlaylisterJS-Suite is a showcase full-stack web application for creating and managing music playlists. Inspired by the simplicity and functionality of popular music streaming services, PlaylisterJS-Suite demonstrates an intuitive interface for users to search, organize, and enjoy their favorite tracks.
 
 ## Features
 
