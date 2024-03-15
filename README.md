@@ -58,14 +58,16 @@ Backend:
 
 ```bash
 cd backend
-npm start
+npm i
+nodemon src/server.js
 ```
 
 Frontend:
 
 ```bash
 cd frontend
-npm start
+npm i
+npm run dev
 ```
 
 ## Usage
