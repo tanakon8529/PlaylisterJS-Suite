@@ -1,89 +1,104 @@
 
 # PlaylisterJS-Suite
 
-PlaylisterJS-Suite is a showcase full-stack web application for creating and managing music playlists. Inspired by the simplicity and functionality of popular music streaming services, PlaylisterJS-Suite demonstrates an intuitive interface for users to search, organize, and enjoy their favorite tracks.
+PlaylisterJS-Suite is a showcase full-stack web application modeled after Spotify for creating and managing music playlists. Leveraging the efficiency of Vite and Vue 3, it presents an intuitive interface allowing users to search, organize, and play their favorite tracks with ease.
 
 ## Features
 
+- Spotify-like UI for familiar user experience
 - Search for songs using a third-party music API
-- Create custom playlists
-- Add and remove songs from playlists
-- Audio playback functionality
-- (List other features here)
+- Create and manage custom playlists
+- Add and remove songs with ease
+- In-browser audio playback
+- Responsive design for desktop and mobile users
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 - Node.js installed (v14 or higher recommended)
-- npm or yarn as your package manager
-- (Any other prerequisites)
+- A package manager like npm or yarn
+- Vite for front-end scaffolding
+- Vue 3 for front-end interactivity
+- Pinia for state management
+- Express.js for the backend server
 
 ## Installation
 
 To install PlaylisterJS-Suite, follow these steps:
 
 ```bash
-git clone https://github.com/yourusername/PlaylisterJS-Suite.git
+git clone https://github.com/tanakon8529/PlaylisterJS-Suite.git
 cd PlaylisterJS-Suite
-# Install backend dependencies
+```
+
+### Backend setup
+
+```bash
 cd backend
 npm install
-# Install frontend dependencies
-cd ../frontend
+```
+
+### Frontend setup with Vite
+
+```bash
+cd frontend
 npm install
 ```
 
 ## Configuration
 
-Configure the environment variables for both the backend and frontend:
-
-Backend `.env` file:
+Create a `.env` file in the backend directory with the following content:
 
 ```env
 PORT=5000
-# (Other environment variables)
+# Add other environment variables as needed
 ```
 
-Frontend (set proxy in `package.json`):
-
-```json
-"proxy": "http://localhost:5000",
-```
+For the frontend, Vite manages environment variables using `.env` files in the root of the frontend directory.
 
 ## Running the Project
 
-To run PlaylisterJS-Suite, use the following commands:
+### Backend
 
-Backend:
+Navigate to the backend directory and start the server:
 
 ```bash
 cd backend
-npm i
+npm install
 nodemon src/server.js
 ```
 
-Frontend:
+### Frontend
+
+Navigate to the frontend directory and start the development server:
 
 ```bash
 cd frontend
-npm i
+npm install
 npm run dev
 ```
 
+The frontend should now be running on `http://localhost:3000` and the backend on `http://localhost:5000`.
+
 ## Usage
 
-After starting the server and client, visit `http://localhost:3000` in your web browser to access PlaylisterJS-Suite.
+Open `http://localhost:3000` in your web browser to access the PlaylisterJS-Suite:
 
-- Use the search bar to find songs.
-- Click on a song to select it.
-- Use the "Play" button to listen to a preview.
-- Add songs to your playlist using the "+" icon.
-- (Provide additional usage instructions)
+- Use the search bar to explore songs.
+- Click the "Play" button to start an audio preview.
+- Add songs to playlists via the "+" icon, and remove them as desired.
+- Access your created playlists and liked songs from the sidebar.
 
 ## Acknowledgments
 
-Give credit to any resources or individuals that helped in the development of this project.
+Special thanks to:
+
+- Spotify for the design inspiration.
+- Vue.js team for the innovative framework.
+- Vite for the blazing fast build tooling.
+- Pinia for the intuitive state management.
+- All the contributors to the third-party libraries used in this project.
 
 ## License
 
-PlaylisterJS-Suite is released under the [MIT License](LICENSE). See the LICENSE file for details.
+PlaylisterJS-Suite is released under the [MIT License](LICENSE). See the LICENSE file for more information.
