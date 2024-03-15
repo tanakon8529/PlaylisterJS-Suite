@@ -100,7 +100,3 @@ Special thanks to:
 - Vite for the blazing fast build tooling.
 - Pinia for the intuitive state management.
 - All the contributors to the third-party libraries used in this project.
-
-## License
-
-PlaylisterJS-Suite is released under the [MIT License](LICENSE). See the LICENSE file for more information.
