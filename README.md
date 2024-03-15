@@ -39,7 +39,9 @@ npm install
 ```
 
 ### Frontend setup with Vite
+The frontend is refactored with Vite and is a clone from John Weeks Dev's Spotify clone. (https://github.com/John-Weeks-Dev/spotify-clone)
 
+To set it up:
 ```bash
 cd frontend
 npm install
